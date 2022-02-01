@@ -1,5 +1,5 @@
 {
-  "singleQuote": true,
-  "arrowParens": "avoid",
-  "useTabs": true
+	"singleQuote": true,
+	"arrowParens": "always",
+	"useTabs": true
 }
