@@ -38,7 +38,6 @@ const App = () => {
 		});
 	};
 
-	// JSX code
 	return (
 		<div>
 			<h2>Let's get started!</h2>
@@ -46,14 +45,6 @@ const App = () => {
 			<Expenses items={expenses} />
 		</div>
 	);
-
-	// // Alternative to JSX code
-	// return React.createElement(
-	// 	'div',
-	// 	{},
-	// 	React.createElement('h2', {}, "Let's get started!"),
-	// 	React.createElement(Expenses, { items: expenses })
-	// );
 };
 
 export default App;
