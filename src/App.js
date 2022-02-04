@@ -7,7 +7,7 @@ const DUMMY_EXPENSES = [
 		id: 'e1',
 		title: 'Tango, x12',
 		amount: 360,
-		date: new Date(2020, 7, 14),
+		date: new Date(2021, 7, 14),
 	},
 	{
 		id: 'e2',
