@@ -6,6 +6,12 @@ const ExpenseForm = (props) => {
 	const [enteredAmount, setEnteredAmount] = useState('');
 	const [enteredDate, setEnteredDate] = useState('');
 
+	const clearFormSubmitting = () => {
+		setEnteredTitle('');
+		setEnteredAmount('');
+		setEnteredDate('');
+	};
+
 	const titleChangeHandler = (event) => {
 		setEnteredTitle(event.target.value);
 	};
@@ -18,7 +24,6 @@ const ExpenseForm = (props) => {
 		setEnteredDate(event.target.value);
 	};
 
-	// ? The two-way binding
 	const submitHandler = (event) => {
 		event.preventDefault();
 
@@ -29,9 +34,7 @@ const ExpenseForm = (props) => {
 		};
 
 		props.onSaveExpenseData(expenseData);
-		setEnteredTitle('');
-		setEnteredAmount('');
-		setEnteredDate('');
+		clearFormSubmitting();
 	};
 
 	return (
@@ -67,7 +70,7 @@ const ExpenseForm = (props) => {
 						type="date"
 						value={enteredDate}
 						onChange={dateChangeHandler}
-						min="2019-01-01"
+						min="2020-01-01"
 						step="2022-12-31"
 					/>
 				</div>
