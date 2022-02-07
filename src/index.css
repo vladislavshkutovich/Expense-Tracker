@@ -1,15 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
-  font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
 body {
-  margin: 0;
-  background-color: #3f3f3f;
+	margin: 0;
+	background-image: linear-gradient(to right bottom, #b4c4d5, #2f393d);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
 }
 
+/* color palette for application themes in future */
+color-palette {
+	background-color: #2f393d;
+	background-color: #404b53;
+	background-color: #889ca0;
+	background-color: #b4c4d5;
+	background-color: #fceecd;
+	background-color: #fecc8c;
+	background-color: #d78024;
+	background-color: #de5426;
+}

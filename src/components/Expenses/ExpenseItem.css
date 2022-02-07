@@ -4,7 +4,8 @@
 	align-items: center;
 	padding: 0.5rem;
 	margin: 1rem 0;
-	background-color: #4b4b4b;
+	background-image: linear-gradient(to left bottom, #b4c4d5, #2f393d);
+	background-size: cover;
 }
 
 .expense-item__description {
@@ -28,11 +29,11 @@
 .expense-item__price {
 	font-size: 1rem;
 	font-weight: bold;
-	color: white;
-	background-color: #7b0cbb;
+	color: #ffffff;
+	background-color: #d78024;
 	border: 1px solid white;
 	padding: 0.5rem;
-	border-radius: 12px;
+	border-radius: 8px;
 }
 
 @media (min-width: 580px) {
