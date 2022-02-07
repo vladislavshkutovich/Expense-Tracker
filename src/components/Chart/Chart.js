@@ -2,6 +2,7 @@ import React from 'react';
 import ChartBar from './ChartBar';
 import './Chart.css';
 
+// * Dynamic diagrames according to expenses data per month
 const Chart = (props) => {
 	const dataPointValues = props.dataPoints.map((dataPoint) => dataPoint.value);
 	const totalMaximum = Math.max(...dataPointValues);

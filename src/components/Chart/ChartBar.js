@@ -1,6 +1,7 @@
 import React from 'react';
 import './ChartBar.css';
 
+// * A single diagram element for calculating expense items bars
 const ChartBar = (props) => {
 	let barFillHeight = '0%';
 

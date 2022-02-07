@@ -1,6 +1,7 @@
 import React from 'react';
 import './ExpensesFilter.css';
 
+// * Filter for expenses per years
 const ExpensesFilter = (props) => {
 	const dropdownChangeHandler = (event) => {
 		props.onChangeFilter(event.target.value);

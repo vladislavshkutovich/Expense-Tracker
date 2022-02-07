@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './ExpenseForm.css';
 
+// * Component for editing user's data (at App.js/DUMMY_EXPENSES)
+// * and for rendering form to adding new expense items
 const ExpenseForm = (props) => {
 	const [enteredTitle, setEnteredTitle] = useState('');
 	const [enteredAmount, setEnteredAmount] = useState('');

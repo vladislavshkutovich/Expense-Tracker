@@ -5,6 +5,7 @@ import ExpensesList from './ExpensesList';
 import ExpensesFilter from './ExpensesFilter';
 import ExpensesChart from './ExpensesChart';
 
+// * Main expenses component, rednered below the form component
 const Expenses = (props) => {
 	const [filteredYear, setFilteredYear] = useState('2021');
 

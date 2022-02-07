@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './NewExpense.css';
 import ExpenseForm from './ExpenseForm';
 
+// * Main form component, includes features for adding new expense items
 const NewExpense = (props) => {
 	const [isEditing, setIsEditing] = useState(false);
 

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Expenses from './components/Expenses/Expenses';
 import NewExpense from './components/NewExpense/NewExpense';
 
+// * "Fake" data from some fictional account
 const DUMMY_EXPENSES = [
 	{
 		id: 'e1',
@@ -41,6 +42,7 @@ const DUMMY_EXPENSES = [
 	},
 ];
 
+// * Main App component, which includes whole page for ReactDOM.render()
 const App = () => {
 	const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
 
